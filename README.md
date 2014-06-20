@@ -21,7 +21,8 @@
   * Apply it to your Express Router
   
   ```js
-  var session_attributes = require('./lib/sessionMap');
+  var session_attributes = require('./lib/session_attribute_map.js');
+  var app = express();
   ...
   ...
   app.use(session_attributes); 
